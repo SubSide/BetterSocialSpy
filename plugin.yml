@@ -1,0 +1,14 @@
+name: BetterSocialSpy
+main: subside.plugins.bettersocialspy.BetterSocialSpy
+version: 1.0
+author: SubSide
+commands:
+  socialspy:
+    description: The command for socialspy
+permissions:
+  bss.socialspy:
+    description: Allows you to toggle socialspy
+    default: op
+  bss.other:
+    description: Allows you to toggle socialspy for others
+    default: op
